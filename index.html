@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#music">Music</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to the Music Player</h1>
+        <p>Music is a universal language that touches emotions, inspires creativity, and connects people.</p>
+    </section>
+
+    <section id="music">
+        <h2>Music Playlist</h2>
+        <select id="song-selector">
+            <option value="">Select a song</option>
+        </select>
+
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p><strong>Contact Information:</strong></p>
+                <p>Email: support@musicplayer.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Music Street, Melody City, 56789</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="version"><strong>Music Player v1.0</strong></p>
+            <p class="developer"><strong>Developed By: P.P. Samuel Kumar</strong></p>
+        </div>
+        <a href="#home" class="footer-link">Back to Home</a>
+
+        <div class="footer-copyright">
+            © 2025 Music Player. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
